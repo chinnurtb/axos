@@ -7,7 +7,7 @@
 
 -include_lib("webmachine/include/webmachine.hrl").
 
-init([]) -> {ok, undefined}.
+init(Target) -> {ok, Target}.
 
-to_html(ReqData, State) ->
-    {"<html><body>Hello, new world</body></html>", ReqData, State}.
+to_html(ReqData, Target) ->
+    {"<html><body>Hello, Axos</body></html>", ReqData, Target}.
