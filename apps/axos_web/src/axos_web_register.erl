@@ -12,8 +12,7 @@
 
 -include_lib("webmachine/include/webmachine.hrl").
 
--define(MT_FORMENC, "application/x-www-form-urlencoded").
--define(MT_APPJSON, "application/json").
+-include("axos_web.hrl").
 
 %% our context, ctx, record that we'll pass around to each function
 -record(ctx, {}).
