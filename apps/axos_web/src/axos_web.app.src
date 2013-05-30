@@ -1,0 +1,18 @@
+%%-*- mode: erlang -*-
+{application, axos_web,
+ [
+  {description, "axos_web"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  mochiweb,
+                  webmachine
+                 ]},
+  {mod, { axos_web_app, []}},
+  {env, []}
+ ]}.
