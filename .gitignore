@@ -1,0 +1,8 @@
+ebin
+rel/axos
+*.beam
+*~
+deps
+erl_crash.dump
+*/#*#
+#*#

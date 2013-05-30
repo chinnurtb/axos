@@ -1,0 +1,12 @@
+{application, axos,
+ [
+  {description, "An erlang application."},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { axos_app, []}},
+  {env, []}
+ ]}.
