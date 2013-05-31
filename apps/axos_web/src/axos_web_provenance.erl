@@ -2,8 +2,8 @@
 -export([
 	init/1,
 	allowed_methods/2,
-	content_types_accepted/2,
-	content_types_provided/2
+	content_types_accepted/2
+%%	content_types_provided/2
 	]).
 
 -export([
@@ -28,12 +28,12 @@ to_html(RD, Ctx) ->
 %% Rd - request data, an opaque record, #wm_reqdata
 %% Ctx - resource's context that is provided
 allowed_methods(RD, Ctx) ->
-	{['POST'], RD, Ctx}.
+	{['POST', 'GET'], RD, Ctx}.
 
 content_types_accepted(ReqData, Context) ->
 	{[{?MT_FORMENC, accept_form},
 	  {?MT_APPJSON, accept_json}], ReqData, Context}.
 
-content_types_provided(RD, Ctx) ->
-    {[ {?MT_APPJSON, to_json} ], RD, Ctx}.
+%%content_types_provided(RD, Ctx) ->
+%%    {[ {?MT_APPJSON, to_json} ], RD, Ctx}.
 

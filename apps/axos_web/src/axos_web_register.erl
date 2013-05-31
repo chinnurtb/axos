@@ -62,5 +62,5 @@ process_post(ReqData, Context) ->
 					[SrvKey, ObjId, ObjName, ObjDesc]),
 	%%Content = "<html><body><h1>Created.</h1></body></html>",
 	Resp0 = wrq:set_resp_header("Content-Type", "text/html", ReqData),
-	Resp1 = wrq:set_resp_body(Content, ReqData), 
+	Resp1 = wrq:set_resp_body(Content, Resp0), 
 	{true, Resp1, Context}.

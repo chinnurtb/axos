@@ -1,0 +1,2 @@
+-define(MT_FORMENC, "application/x-www-form-urlencoded").
+-define(MT_APPJSON, "application/json").
