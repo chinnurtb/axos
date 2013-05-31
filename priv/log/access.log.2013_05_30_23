@@ -1,4 +1,0 @@
-127.0.0.1 - - [30/May/2013:16:59:30 -0700] "GET / HTTP/1.1" 200 37 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
-127.0.0.1 - - [30/May/2013:16:59:30 -0700] "GET /favicon.ico HTTP/1.1" 404 193 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
-127.0.0.1 - - [30/May/2013:16:59:34 -0700] "GET /register/foo/bar/baz/goo HTTP/1.1" 200 48 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
-127.0.0.1 - - [30/May/2013:16:59:34 -0700] "GET /favicon.ico HTTP/1.1" 404 193 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"

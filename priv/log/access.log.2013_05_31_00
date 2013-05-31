@@ -1,6 +1,0 @@
-127.0.0.1 - - [30/May/2013:17:00:09 -0700] "POST /register/foo/bar/baz/goo HTTP/1.1" 200 49 "" "curl/7.24.0 (x86_64-apple-darwin12.0) libcurl/7.24.0 OpenSSL/0.9.8r zlib/1.2.5"
-127.0.0.1 - - [30/May/2013:17:02:39 -0700] "POST /register/foo/bar/baz/goo HTTP/1.1" 200 49 "" "curl/7.24.0 (x86_64-apple-darwin12.0) libcurl/7.24.0 OpenSSL/0.9.8r zlib/1.2.5"
-127.0.0.1 - - [30/May/2013:17:05:08 -0700] "GET /provenance/srv/event/cate HTTP/1.1" 500 127352 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
-127.0.0.1 - - [30/May/2013:17:05:09 -0700] "GET /favicon.ico HTTP/1.1" 404 193 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
-127.0.0.1 - - [30/May/2013:17:06:10 -0700] "GET /provenance/srv/event/cate HTTP/1.1" 200 43 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
-127.0.0.1 - - [30/May/2013:17:06:10 -0700] "GET /favicon.ico HTTP/1.1" 404 193 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
