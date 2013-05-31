@@ -6,3 +6,4 @@ apps/axos/ebin
 dev/*
 doc/*
 rel/axos
+priv/log/*
