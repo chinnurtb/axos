@@ -1,4 +1,5 @@
 -module(axos_web_provenance).
+
 -export([
 	init/1,
 	allowed_methods/2,
@@ -50,7 +51,7 @@ content_types_accepted(ReqData, Context) ->
 
 content_types_provided(RD, Ctx) ->
     {[{?MT_APPJSON, to_json},
-      {"text/html", to_html}], RD, Ctx}.
+      {?MT_TXTHTML, to_html}], RD, Ctx}.
 
 process_post(RD, Ctx) -> 
 	{RespContent, _, _} = to_json(RD, Ctx),
