@@ -1,8 +1,8 @@
 %% -*- erlang -*-
 {application, axos,
  [
-  {description, ""},
-  {vsn, "1"},
+  {description, "riak_core application that servers as middleware"},
+  {vsn, "0.0.1"},
   {registered, []},
   {applications, [
                   kernel,

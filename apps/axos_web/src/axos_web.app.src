@@ -1,8 +1,8 @@
 %%-*- mode: erlang -*-
 {application, axos_web,
  [
-  {description, "axos_web"},
-  {vsn, "1"},
+  {description, "RESTful endpoints for the provenance framework"},
+  {vsn, "0.0.1"},
   {modules, []},
   {registered, []},
   {applications, [
