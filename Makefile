@@ -28,8 +28,6 @@ rel: all
 relclean:
 	rm -rf rel/axos
 
-devrel: dev1 dev2 dev3
-
 ###
 ### Docs
 ###
@@ -40,7 +38,7 @@ docs:
 ## Developer targets
 ##
 
-stage : rel
+stage: rel
 	$(foreach dep,$(wildcard deps/* wildcard apps/*), rm -rf rel/axos/lib/$(shell basename $(dep))-* && ln -sf $(abspath $(dep)) rel/axos/lib;)
 
 
@@ -60,7 +58,6 @@ dev1 dev2 dev3: all
 
 webstart: app
 	exec erl -pa $(PWD)/apps/*/ebin -pa $(PWD)/deps/*/ebin -boot start_sasl -s reloader -s axos -s axos_web 
-
 
 
 ##
